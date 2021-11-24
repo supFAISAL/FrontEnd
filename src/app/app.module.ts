@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TableComponent } from './Table/Table.component';
 import { FormComponent } from './Form/Form.component';
+import { DataEditComponent } from './dataEdit/dataEdit.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       TableComponent,
-      FormComponent
+      FormComponent,
+      DataEditComponent
    ],
   imports: [
     FormsModule,

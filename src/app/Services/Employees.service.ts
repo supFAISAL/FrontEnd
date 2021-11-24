@@ -29,4 +29,15 @@ export class EmployeesService {
   ];
 constructor() { }
 
+editEmployee(data:any){
+
+  this.Employees.forEach(el=>{
+
+    if(data.id===el.id){
+     Object.assign(el,data)
+     console.log(this.Employees)
+    }
+  })
+}
+
 }
